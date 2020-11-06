@@ -1,0 +1,26 @@
+{
+   "name": "origin/login",
+   "type": "phpbb-extension",
+   "description": "Module de connexion/enregistrement sur l‘index du forum",
+   "homepage": "https://caforum.fr/forum",
+   "version": "1.0.1",
+   "time": "2020-11-05",
+   "keywords": "",
+   "license": "GPL-2.0-only",
+   "authors": [{
+         "name": "Fred",
+         "username": "origin",
+         "email": "contact@caforum.fr",
+         "homepage": "https://caforum.fr/forum",
+         "role": "Developer"
+      }],
+   "require": {
+      "php": ">5.4.7"
+   },
+   "extra": {
+      "display-name": "Login",
+      "soft-require": {
+            "phpbb/phpbb": ">3.2"
+      }
+   }
+}
